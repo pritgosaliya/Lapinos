@@ -1,0 +1,945 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background: #fff;
+    color: aliceblue;
+    box-shadow: 3px 3px 20px rgb(196, 192, 192);
+    position: fixed;
+    z-index: 100;
+}
+.logo
+{
+    width: 30%;
+    height: 70px;
+    text-align: center;
+}
+.logo img 
+{
+    height: 60px;
+    width: 200px;
+    padding-top: 5px;
+}
+.menu
+{
+    width: 70%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.menu a 
+{
+    text-decoration: none;
+    color: #000;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.power-icon
+{
+    display: none;
+}
+.slider 
+{
+    height: 500px;
+}
+.slider img 
+{
+    height: 100%;
+    width: 100%;
+}
+.lapt 
+{
+    display: block;
+}
+.device
+{
+    display: none;
+}
+.outlets
+{
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    background: url("C:\Users\Admin\Downloads\lapinoz-going-international.jpg");
+    background-size:100% 100%;
+
+}
+.country
+{
+    height: 100%;
+    width: 50%;
+    padding-top: 50px;
+}
+.local
+{
+    height: 100%;
+    width: 50%;    
+}
+.local h2
+{
+    color: #000;
+}
+.area li 
+{
+    display: inline-block;
+    list-style: none;
+    width: auto;
+    padding-left: 15px;
+    padding-top: 5px;
+    background: #fff;
+}
+.list
+{
+    height: 80%;
+    margin: 10% 10%;
+    padding-top: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(196, 192, 192);
+}
+.list ul 
+{
+    text-align: center;
+}
+.list ul li 
+{
+    list-style: none;
+    display: inline-block;  
+    padding-left: 20px;  
+}
+.list ul li img 
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.list ul li p
+{
+    padding-top: 5px;
+}
+.own
+{
+    display: flex;
+    height: auto;
+}
+.story
+{
+    width: 50%;
+    padding-top: 150px;
+}
+.story .padding
+{
+    padding-left: 40px;
+}
+.story .margin 
+{
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.story a
+{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: green;
+    border-radius: 20px;
+}
+.story a:hover
+{
+    background: #fff;
+    color: #000;
+    border:1px solid #000;
+}
+.owner
+{
+    width: 50%;
+}
+.owner img 
+{
+    height: 80;
+    max-width: 80%;
+    margin: 4% 15%;
+}
+.food 
+{
+    height:auto;
+    width: 100%;
+    background: url("C:\Users\Admin\Downloads\menu.jpg");
+    background-size: cover;
+}
+.heading
+{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.heading h2 
+{
+    font-weight: normal;
+}
+.food1 
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box 
+{
+    height:auto;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    background:#fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.f1
+{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+.f1 p 
+{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.f1 img 
+{
+    height: 150px;
+    width: 150px;
+}
+.f2
+{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+.f2 p 
+{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.f2 img 
+{
+    height: 150px;
+    width: 150px;
+}
+.f3
+{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+.f3 p 
+{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.f3 img 
+{
+    height: 150px;
+    width: 150px;
+}
+.f4
+{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+.f4 p 
+{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.f4 img 
+{
+    height: 150px;
+    width: 150px;
+}
+.food2 
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.f5
+{
+    height: 100%;
+    width: 25%;
+    margin-left: 165px;
+    text-align: center;
+    padding-top: 70px;
+}
+.f5 p 
+{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.f5 img 
+{
+    height: 150px;
+    width: 150px;
+}
+.f6
+{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+.f6 p 
+{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.f6 img 
+{
+    height: 150px;
+    width: 150px;
+}
+.f7
+{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding-top: 70px;
+}
+.f7 p 
+{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.f7 img 
+{
+    height: 150px;
+    width: 150px;
+}
+.review
+{
+    background: url("C:\\Users\\Admin\\Downloads\\testimonial-bg.jpg");
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+p.head
+{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h2.up
+{
+    text-transform: uppercase;
+    color: green;
+    font-size: 40px;
+}
+.icon
+{
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 45%;
+    border-radius: 50%;
+    font-size: 130px;
+    box-shadow: 3px 3px 20px rgb(196, 192, 192);
+}
+p.rev
+{
+    margin-top: 70px;
+    font-size: 20px;
+}
+p.user
+{
+    margin-top: 30px;
+    padding-left: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+    .location
+    {
+        margin-top: 10px;
+        height: auto;
+        background:#24572C;
+        text-align: center;
+    }
+    .location h1
+    {
+        padding-top: 30px;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    .locations
+    {
+        list-style-type: none;
+        margin-top: 20px;
+    }
+    .locations li
+        {
+        font-size: 16px;
+        color: #fdfffe;
+        display: inline-block;
+        max-width:auto;
+        padding: 5px;
+        background: #bbf3dc14;
+        border-radius: 0.5em;
+        margin: 0.3em;
+        box-shadow: 0 5px 20px -10px rgb(0 0 0 0.5)x;
+    }
+.social
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.app 
+{
+    height: 500px;
+    width: 40%;
+}
+.para
+{
+    height: 30%;
+    text-align: center;
+    padding-top: 30px;
+}
+.para2
+{
+    height: 30%;
+    text-align: center;
+    padding: 50px;
+}
+.s_icons
+{
+    height: 40%;
+    text-align: center;
+}
+.s_icons img
+{
+    height: 70px;
+    width: 150px;
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+.slider2
+{
+    height: 500px;
+    width: 60%;
+    text-align: center;
+}
+.slider2 img 
+{
+    padding-top: 50px;
+    padding-left: 20px;
+    height: 400px;
+    width: 200px;
+}
+.footer 
+{
+    display: flex;
+    height: auto;
+    width:auto;
+    background:#24572C;
+}
+.footer1
+{
+    width: 33.33%;
+    height: 200px;
+    text-align: center;
+}
+.footer1 p 
+{
+    font-size: 25px;
+}
+.footer1 a 
+{
+    text-decoration: none;
+    display: grid;
+    color: #000;
+}
+p.footer_header
+{
+    padding-top: 20px;
+}
+.footer2
+{
+    width: 33.33%;
+    height: 200px;
+    text-align: center;
+}
+.footer2 p 
+{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.footer2 a
+{
+    padding-left: 3px;
+}
+.footer2 a img
+{
+    border-radius: 3px;
+}
+.footer3
+{
+    width: 33.33%;
+    height:200px;
+}
+p.contact
+{
+    padding-left: 10px;
+}
+@media screen and (max-width:768px)
+{
+    .logo
+    {
+        width: 50%;
+    }
+    .menu
+    {
+        display: none;
+    }
+    .power-icon
+    {
+        height: 70px;
+        width: 50%;
+        text-align: right;
+        line-height: 70px;
+        display: block;
+    }
+    .power-icon a
+    {
+        text-decoration: none;
+        color: #000;
+        padding-right: 20px;
+    }
+    .power-icon a i 
+    {
+        font-size: 18px;
+    }
+    .lapt
+    {
+        display: none;
+    }
+    .device
+    {
+        display: block;
+    }
+    .outlets
+    {
+        display: grid;
+    }
+    .country
+    {
+        width: 100%;
+    }
+    .list ul li img 
+    {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    .local
+    {
+        width: 100%;
+    }
+    .own
+    {
+        display: grid;
+    }
+    .story 
+    {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .story .padding
+    {
+        padding-left: 20px;
+    }
+    .story .margin
+    {
+        margin-top: 25px;
+        margin-left: 120px;
+    }
+    .owner
+    {
+        width: 100%;
+    }
+    .owner img 
+    {
+        margin: 9% 9%;
+    }
+    p.head
+    {
+        font-size: 15px;
+    }
+    h2.up
+    {
+        font-size: 30px;
+    }
+    .icon
+    {
+        margin-left:70px;
+    }
+    .area li 
+    {
+        display: grid;
+    }
+    .heading h2
+    {
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    .f1
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+
+    .f1 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f2
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f2 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f3
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f3 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f4
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f4 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f5
+    {
+        width: 50%;
+        height: 50%;
+        margin-left: 0;
+        padding-top: 30px;
+    }
+    .f5 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f6
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f6 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f7
+    {
+        width: 50%;
+        height: 50%;
+        margin-left: 90px;
+        padding-top: 30px;
+    }
+    .f7 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .social
+    {
+        display: grid;
+    }
+    .app 
+    {
+        width: 100%;
+    }
+    .slider2
+    {
+        width: 100%;
+    }
+    .slider2 img 
+    {
+        margin-top: 40px;
+        padding-top: 50px;
+        padding-left: 30px;
+        height: 300px;
+        width: 150px;
+    }
+    .footer
+    {
+        display: grid;
+    }
+    .footer1
+    {
+        width: 100%;
+        height: 130px;
+    }
+    .footer2
+    {
+        width: 100%;
+        height: 100px;
+    }
+    .footer3
+    {
+        width: 100%;
+        height: 100px;
+    }
+}
+@media screen and (max-width:480px)
+{
+    .logo
+    {
+        width: 50%;
+    }
+    .menu
+    {
+        display: none;
+    }
+    .power-icon
+    {
+        height: 70px;
+        width: 50%;
+        text-align: right;
+        line-height: 70px;
+        display: block;
+    }
+    .power-icon a
+    {
+        text-decoration: none;
+        color: #000;
+        padding-right: 20px;
+    }
+    .power-icon a i 
+    {
+        font-size: 18px;
+    }
+    .lapt
+    {
+        display: none;
+    }
+    .device
+    {
+        display: block;
+    }
+    .outlets
+    {
+        display: grid;
+    }
+    .country
+    {
+        width: 100%;
+    }
+    .local
+    {
+        width: 100%;
+    }
+    .own
+    {
+        display: grid;
+    }
+    .story 
+    {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .story .padding
+    {
+        padding-left: 20px;
+    }
+    .story .margin
+    {
+        margin-top: 25px;
+        margin-left: 120px;
+    }
+    .owner
+    {
+        width: 100%;
+    }
+    .owner img 
+    {
+        margin: 9% 9%;
+    }
+    p.head
+    {
+        font-size: 15px;
+    }
+    h2.up
+    {
+        font-size: 30px;
+    }
+    .icon
+    {
+        margin-left:70px;
+    }
+    .area li 
+    {
+        display: grid;
+        padding-left: 0;
+    }
+    .heading h2
+    {
+        padding-top: 5px;
+        font-size: 20px;
+    }
+    .f1
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f1 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f2
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f2 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f3
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f3 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f4
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f4 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f5
+    {
+        width: 50%;
+        height: 50%;
+        margin-left: 0;
+        padding-top: 30px;
+    }
+    .f5 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f6
+    {
+        width: 50%;
+        height: 50%;
+        padding-top: 30px;
+    }
+    .f6 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .f7
+    {
+        width: 50%;
+        height: 50%;
+        margin-left: 90px;
+        padding-top: 30px;
+    }
+    .f7 img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .social
+    {
+        display: grid;
+    }
+    .app 
+    {
+        width: 100%;
+    }
+    .slider2
+    {
+        width: 100%;
+    }
+    .slider2 img 
+    {
+        margin-top: 40px;
+        padding-top: 50px;
+        padding-left: 30px;
+        height: 300px;
+        width: 150px;
+    }
+    .footer
+    {
+        display: grid;
+    }
+    .footer1
+    {
+        width: 100%;
+        height: auto;
+    }
+    .footer2
+    {
+        width: 100%;
+        height: 130px;
+    }
+    .footer3
+    {
+        width: 100%;
+        height: 150px;
+    }
+
+}
